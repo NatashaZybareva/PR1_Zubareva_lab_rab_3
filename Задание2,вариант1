@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+        $("#tr1").mouseenter(function () {
+		$(this).hide();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+<p> БОЕВАЯ КЛАССИКА </p>
+<table>
+<tr><td>Lada - 2105</td></tr>
+<tr><td>Lada - 2107</td></tr>
+<tr id="tr1">
+	<td><img src="\\C:\\Users\\home\\Downloads\\bk.jpg" width="184" height="184"></td>
+</tr>
+</table>
+</body> 
+</html>
