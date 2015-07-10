@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[href]").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[href]").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+<p><a href="http://vk.com">Социальная сеть "ВКонтакте"</a></p>
+<p>Социальная сеть "Facebook"</p>
+<p>Социальная сеть "Twitter"</p>
+<p><a href="http://ok.ru">Социальная сеть "Одноклассники"</a></p>
+<p><a href="http://drive2.ru">Социальная сеть "DRIVE2"</a></p>
+<p>Социальная сеть "Orcut"</p>
+<p><a href="http://instagram.com">Социальная сеть "Instagram"</a></p>
+<br>
+<br>
+<button id="btn1">Скрыть элементы c атрибутом href</button>
+<button id="btn2">Отобразить элементы c атрибутом href</button>
+</body> 
+</html>
