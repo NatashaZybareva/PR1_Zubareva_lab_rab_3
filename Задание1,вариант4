@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[align*='center']").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[align*='center']").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+ <table >
+<tr align ="center"><td>Ford Focus</td></tr>
+<tr><td>Vortex Estina</td></tr>
+<tr><td>Renault Logan</td></tr>
+<tr><td>Lada Granta</td></tr>
+<tr align ="center"><td>Toyota RAV4</td></tr>
+<tr align ="center"><td>Nissan Altima</td></tr>
+<tr><td>Chevrolet Lacetti</td></tr>
+</table>
+<br>
+<button id="btn1">Скрыть элементы, выравненные по центру</button>
+<button id="btn2">Отобразить элементы, выравненные по центру</button>
+</body> 
+</html>
