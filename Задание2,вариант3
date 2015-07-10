@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+        $(window).resize(function () {
+		$("[href]").hide();
+	});
+     });
+</script> 
+</head> 
+<body>  
+<p> БОЕВАЯ КЛАССИКА </p>
+<table>
+<tr><td>Lada - 2105</td></tr>
+<tr><td>Lada - 2107</td></tr>
+</table>
+<p><a href="http://drive2.ru">Социальная сеть "DRIVE2"</a></p>
+</body> 
+</html> 
