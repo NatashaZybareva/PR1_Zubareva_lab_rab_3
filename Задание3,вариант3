@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle(2000);
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle(2000);}
+		}
+		while(i<2000)
+		$(".p1").hide();
+		});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Ford Focus</p>
+<p class="p2" style="display:none">Vortex Estina</p>
+<p class="p1"style="display:none">Renault Logan</p>
+<p class="p2" style="display:none">Lada Granta</p>
+<p class="p1"style="display:none">Toyota RAV4</p>
+<p class="p2" style="display:none">Nissan Altima</p>
+<p class="p1"style="display:none">Suzuki Kizashi</p>
+<p class="p2" style="display:none">Chevrolet Lacetti</p>
+<p class="p1"style="display:none">Subaru Impreza</p>
+<p class="p2" style="display:none">Volkswagen Polo</p>
+</body>
+<br>
+<button>Отобразить строки</button>
+</html>
